@@ -23,13 +23,13 @@ class Menu_Utama extends StatelessWidget {
     return Scaffold(
       appBar : AppBar(
         title : Text ('Menu Utama'),
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: Colors.teal.shade900,
       ),
       body : Center(
         child : ListView(
             children:<Widget>[RaisedButton(
               child : Text ('Pindah Halaman Pertama'),
-              color: Colors.blue,
+              color: Colors.tealAccent.shade100,
               onPressed: (){
 
                 Navigator.pushNamed(context, HalamanPertama.routeName);
@@ -37,7 +37,7 @@ class Menu_Utama extends StatelessWidget {
             ),
             RaisedButton(
               child : Text('Pindah Halaman Kedua'),
-              color: Colors.yellow,
+              color: Colors.blueGrey,
               onPressed : (){
 
                 Navigator.pushReplacementNamed(context, HalamanKedua.routeName);
@@ -45,7 +45,7 @@ class Menu_Utama extends StatelessWidget {
             ),
             RaisedButton(
               child : Text('Pindah Halaman Ketiga'),
-              color: Colors.blue,
+              color: Colors.tealAccent.shade100,
               onPressed : (){
 
                 Navigator.pushReplacementNamed(context, HalamanKetiga.routeName);
@@ -53,7 +53,7 @@ class Menu_Utama extends StatelessWidget {
             ),
             RaisedButton(
               child : Text('Pindah Halaman Keempat'),
-              color: Colors.yellow,
+              color: Colors.blueGrey,
               onPressed : (){
 
                 Navigator.pushReplacementNamed(context, HalamanKeempat.routeName);
@@ -61,7 +61,7 @@ class Menu_Utama extends StatelessWidget {
             ),
             RaisedButton(
               child : Text('Pindah Halaman Kelima'),
-              color: Colors.blue,
+              color: Colors.tealAccent.shade100,
               onPressed : (){
 
                 Navigator.pushReplacementNamed(context, HalamanKelima.routeName);
@@ -69,7 +69,7 @@ class Menu_Utama extends StatelessWidget {
             ),
             RaisedButton(
               child : Text('Pindah Halaman Keenam'),
-              color: Colors.yellow,
+              color: Colors.blueGrey,
               onPressed : (){
 
                 Navigator.pushReplacementNamed(context, HalamanKeenam.routeName);
@@ -89,7 +89,7 @@ class HalamanPertama extends StatelessWidget {
     return Scaffold (
       appBar : AppBar(
         title : Text("Halaman Pertama"),
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: Colors.teal.shade900,
       ),
       body: Center(
         child : RaisedButton(
@@ -110,7 +110,7 @@ class HalamanKedua extends StatelessWidget {
     return Scaffold (
       appBar : AppBar(
         title : Text("Halaman Kedua"),
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: Colors.teal.shade900,
       ),
       body: Center(
         child : RaisedButton(
@@ -131,7 +131,7 @@ class HalamanKetiga extends StatelessWidget {
     return Scaffold (
       appBar : AppBar(
         title : Text("Halaman Ketiga"),
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: Colors.teal.shade900,
       ),
       body: Center(
         child : RaisedButton(
@@ -152,7 +152,7 @@ class HalamanKeempat extends StatelessWidget {
     return Scaffold (
       appBar : AppBar(
         title : Text("Halaman Keempat"),
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: Colors.teal.shade900,
       ),
       body: Center(
         child : RaisedButton(
@@ -173,7 +173,7 @@ class HalamanKelima extends StatelessWidget {
     return Scaffold (
       appBar : AppBar(
         title : Text("Halaman Kelima"),
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: Colors.teal.shade900,
       ),
       body: Center(
         child : RaisedButton(
@@ -194,7 +194,7 @@ class HalamanKeenam extends StatelessWidget {
     return Scaffold (
       appBar : AppBar(
         title : Text("Halaman Keenam"),
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: Colors.teal.shade900,
       ),
       body: Center(
         child : RaisedButton(
